@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Directory Structure</title>
+
+	</head>
+	
+	<body>
+		<p>A <dfn>directory</dfn> is organization unit or container used to organize files/folders in herirachial structure.Folders in a website are called Directories.<br/>
+Top level folder=Root folder(all files and flders are contained in the root folder)<br/>
+Grandparents==>Parents==>Child<br/>
+
+<img src="a.jpg" alt="Directory heirarchy"><br/>
+Here Online Shoping==> Grandparent(also parent of Fashion,login etc)<br/>
+(Fashion,Login,Electronics etc)===> Parent(also child of Online shop)<br/>
+(Women,Men,login.html,mobile-phones etc)===>Child(also grand child of grand parent)<br/>
+(mobile-phones==>index.html)===>grandchild <br/>
+
+
+
+<b>Accessing Sibling Folder(Same Folder/Same Level)</b><br/>
+Index.html and reviews.html are on same level so to access reviews.html from index.html we use <br/>"a'tag open href="reviews.html">Navigate me to reviews "a'tag close<br/>
+
+<b>Accessing Child Folder</b><br/>
+"Login-signup" is a parent and "login.html" is child so to access login.html from parent we use <br/>
+"a'tag open href="login-singup/login.html">Navigate me to login page "a'tag close<br/>
+
+<b>Accessing Grand Child</b><br>
+"a'tag open href="Electronics/mobile-phones/index.html">Navigate me to mobile phone page "a'tag close<br/>
+
+<b>Accessing Parent Folder</b><br>
+example: from login.html to index.html <br/>
+"a'tag open href="../index.html">Navigate me to home page "a'tag close<br/> 
+
+
+<b>Accessing GrandParent Folder</b><br>
+Example: from index.html to mobile-phones then to index.html <br/>
+"a'tag open href="../../index.html">Navigate me to home page "a'tag close<br/>
+
+
+</p>
+
+	</body>
+
+</html>

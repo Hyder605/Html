@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>SignUp Form</title>
+</head>
+
+<body>
+<h1>SignUp Form</h1>
+<form action="https://www.example.com/login.php" method="GET">
+	
+
+	<fieldset>
+		<legend>Personal Details</legend>
+		
+	<p>First Name
+		<input type="text" name="firstname" size="15" maxlength="30" required/>
+	   Last Name
+		<input type="text" name="lastname" size="15" maxlength="20" required/>
+	</p>
+	
+	<p>
+		Gender:
+		<input id="male" type="radio" name="gender" value="m"/>
+		<label for="male">Male</label>
+
+		<label><input type="radio" name="gender" value="f" checked/>Female</label>
+<br/>
+name="gender" for both radios to group them into one,so that when one is selected,other one should deselect itself."name" attribute and "value" attribute is used in every input type for referencing/sending the value to the server that what value the user is entering."checked" is used for default checked so that every time you load the browser you can see 'female'is checked default because you use "checked" attribute in female radio type.
+<br/>
+* "label" will enable and also help visualy impaired people,as by labelling ,it is not neccessary to just click on the radio button, you can select the radio button by clicking on the text of that radio button too.here in our case you can select female by clicking on the "female text too.Label actually grouped the button and text.Two different methods of "labeling" is used in above two radio buttons.
+
+	</p>
+
+	<p>
+		Date of Birth:
+		<input type="date" name="dob"/>
+	<p/>
+
+	<p>
+		Please Enter your Email address:<br/>
+		<input type="email" name="email"/>
+	<p/>	
+	
+	<p>
+		Please Enter your website:<br/>
+		<input type="url" name="profile"/>
+	<p/>
+
+	</fieldset>
+
+
+	<p>
+		Nationality:
+		<select name="countries" multiple>
+			<option value="pakistan">Pakistan</option>
+			<option value="india">India</option>
+			<option value="china">China</option>
+			<option value="iran">Iran</option>
+						
+
+		</select><br/><br/>
+"multiple" attribute in above select like this ('select name="countries multiple>') can be used to select multiple items in the list.For window users with ctrl key we can select multiple items.without 'Multiple" a drop down list will create where you can select only one element.Like this<br/><br/>
+		Nationality:
+		<select name="countries">
+			<option value="pakistan">Pakistan</option>
+			<option value="india">India</option>
+			<option value="china">China</option>
+			<option value="iran">Iran</option>
+						
+
+		</select>
+	<p/>
+
+
+	<p>
+		Password:
+		<input type="password" name="password" size="15" maxlength="30"/>
+	<p/>
+	
+
+	<p>
+		Interests:
+		<input type="checkbox" name="interest" value="men"/>Men's Clothing
+		<input type="checkbox" name="interest" value="wmn"/>Women's Clothing
+		<input type="checkbox" name="interest" value="acc"/>Accessories
+		<input type="checkbox" name="interest" value="elec"/>Electronics
+	<p/>
+
+
+	<p>
+		Re-Enter Password:
+		<input type="password" name="password" size="15" maxlength="30"/>
+	<p/>
+
+	<p>
+		Comments:
+	<p/>
+		<textarea name="comments" rows="4" cols="30">Enter your comments...</textarea>
+	
+	<p>
+		Upload Profile Picture:
+	<p/>
+		<input type="file" name="dp"/><br/><br/>
+		<input type="submit" value="Upload"/>
+	<input type="Submit"/>
+	
+	<br/><br/>
+	<input type="image" src="transparentpng.png" width="50"/>
+	
+	
+
+	
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

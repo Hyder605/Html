@@ -1,0 +1,11 @@
+Summary:
+
+HTML uses elements to describe the structure of the page(headings,sub heading,paragraphs)
+
+Creating a page involves adding tags to the content.
+These tags are known as markup:
+There are two types of Markups.
+	i. Structural ii. Semantic
+Structural Markup: The elements that you can use to describe both headings and paragraph.
+
+Semantic Markups: which provides Semantic information;such as where emphasis is placed in a sentence,when text is a quote(and who said it),or the definitionn of an acronym.
